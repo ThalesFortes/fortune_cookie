@@ -40,7 +40,7 @@ section h2{
 }
 
 section img{
-  width: 70%;
+  min-width: 70%;
   margin-bottom: 2rem;
 }
 
@@ -77,4 +77,16 @@ section img{
   background: #FF9500;
   padding: 1.6rem;
   border-radius: .4rem;
+ 
+}
+
+.screenTwo form button:hover{
+  background: #ff5100;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@keyframes tremble {
+  
+  
 }
