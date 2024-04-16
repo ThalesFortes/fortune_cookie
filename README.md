@@ -13,10 +13,10 @@ O projeto foi desenvolvido para exercitar e práticar tudo que venho aprendendo 
 - Arrays
 
 ## Layout web
-![Web 1](https://github.com/ThalesFortes/PhotGallery/blob/main/images/webPhot.png)
+![Web 1](https://github.com/ThalesFortes/fortune_cookie/blob/main/src/images/Web.png)
 
 ## Layout mobile
-![Mobile 1](https://github.com/ThalesFortes/PhotGallery/blob/main/images/celPhot.png)
+![Mobile 1](https://github.com/ThalesFortes/fortune_cookie/blob/main/src/images/Cel.png)
 
 # Tecnologias utilizadas
 
