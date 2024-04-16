@@ -89,7 +89,6 @@ function toggleScreen(){
 }
 
 
-
 //Eventos
 openCookie.addEventListener('click',toggleScreen)
 openCookie.addEventListener('click',handleClick)
