@@ -63,7 +63,6 @@ const messages = new Array ('A vida trará coisas boas se tiver paciência.',
 
 const screenOne = document.querySelector('.screenOne')
 const screenTwo = document.querySelector('.screenTwo')
-
 const openCookie = document.querySelector('#openCookie')
 const openAgain = document.querySelector('#openAgain')
 
@@ -81,6 +80,7 @@ function handleClick() {
   let {index, message} = getMessageRandom()
   document.querySelector('.screenTwo p').innerText = message
   messages.splice(index,1)
+  toggleScreen()
 }
 
 function toggleScreen(){
@@ -89,8 +89,16 @@ function toggleScreen(){
 }
 
 
+
 //Eventos
-openCookie.addEventListener('click',toggleScreen)
 openCookie.addEventListener('click',handleClick)
 openAgain.addEventListener('click',toggleScreen)
+document.addEventListener('keydown', function(e) {
+  if(e.key == 'Enter' && screenTwo.classList.contains('hide')){
+      handleClick()
+  } else if(e.key == 'Enter' && screenOne.classList.contains('hide')){
+      toggleScreen()
+      } 
+  }
+)
 
